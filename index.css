@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #1C1C1C;
+    color: white
+}
+
+#password-box {
+    margin: 30px;
+    /* border: 2px solid white; */
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    padding-left: 50px; 
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#supporting-text {  
+    font-weight: 400;
+    font-size: 20px;
+    color: #D5D4D8;
+    margin-top: 0;
+
+}
+
+#password-btn {
+    background: #10B981;
+    color: white;  
+    font-weight: 500;
+    font-size: 16px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 45px;
+    
+}
+
+#password1-el, #password2-el {
+    border: none;   
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background: #273549;
+    margin-right: 30px;
+    color: #55F991;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 446px;
+    border: 1px solid #2F3E53;
+
+    
+}
+
+#answer-box {
+    display: flex;
+    
+}
+
+#copy-img {
+    height: 35px;
+    width: 35px;
+}
+
+.copyBtn {
+    background: #10B981;
+    color: white;  
+    font-weight: 500;
+    font-size: 16px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-right: 165px;
+
+}
+
+.copyBtn:hover, #password-btn:hover {
+    background: #0d805b;
+}
+
+.copyBtn:active, #password-btn:active {
+    transform: scale(.95)
+}

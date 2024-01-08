@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="author" content="Nils Fredrik Andersen">
+        <meta name="description" content="An app for generating a random password">
+        <title>Generate password</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        
+       
+    </head>
+    <body>
+        <div id="password-box">
+        <h1>Generate a <br><span style="color:#4ADf86">random password</span></h1>
+        <h3 id="supporting-text">Never use an insecure password again.</h3>
+        <button id="password-btn" onclick="passwordBtn()">Generate passwords</button>
+        <hr>
+            <div id="answer-box">
+                <input type="text" id="password1-el" id="2" placeholder="Unique password" readonly="">
+                <input type="text" id="password2-el" placeholder="Unique password" readonly="">
+            </div>
+            <button onclick="copyBtnOne()" class="copyBtn">Copy</button>
+            <button onclick="copyBtnTwo()" class="copyBtn">Copy</button>
+            
+        </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
